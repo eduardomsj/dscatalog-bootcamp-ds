@@ -36,7 +36,7 @@ export const makeRequest = ({ method = 'GET', url, data, params, headers }:Reque
     });
 }
 
-export const MakePrivateRequest = ({ method = 'GET', url, data, params }:RequestParams ) => {
+export const makePrivateRequest = ({ method = 'GET', url, data, params }:RequestParams ) => {
     const sessionData = getSessionData();
 
     const headers = {
